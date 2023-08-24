@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    display: flex;
+  }
+  
+  .Navbar {
+    background: rgba(8, 213, 63, 0.41) !important;
+  }
+  .Navbar .logo-menu {
+    margin-top: 0.9375rem;
+    margin-right: 1.5625rem;
+    margin-bottom: 1.5625rem;
+    margin-left: 0.9375rem;
+    width: 100px;
+    height: 5.625rem;
+  }
+  .Navbar .color-nav {
+    color: white !important;
+    font-weight: bold;
+  }
+  .Navbar .color-nav:hover {
+    color: rgba(117, 100, 142, 0.6196078431) !important;
+  }
+  
+  .LogoLisa h1 {
+    display: flex;
+    color: black;
+    justify-content: center;
+    padding: 1.25rem 1.25rem;
+  }
+  .LogoLisa .img {
+    width: 450px;
+    height: 100%;
+  }
+  .LogoLisa p {
+    padding: 3.125rem 3.125rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Contenedor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+  .Contenedor2 img {
+    margin: 15px;
+    padding-right: 1.25rem;
+    border-radius: 4.375rem;
+  }
+  .Contenedor2 p {
+    padding: 3.125rem 3.125rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .Contenedor2 div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Formulario {
+    background-color: #faf2f2;
+    padding: 1.25rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
+  }
+  .Formulario fieldset {
+    padding: 0.625rem;
+  }
+  
+  footer {
+    background-color: rgba(8, 213, 63, 0.41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer div {
+    margin: 15px;
+    display: flex;
+  }
+  footer img {
+    width: 3.125rem;
+    height: auto;
+    justify-content: flex-end;
+    margin: 0.9375rem;
+  }
+  footer p {
+    padding: 5px;
+    font-size: 12p;
+    justify-content: space-between;
+  }
+  
+  h3 {
+    margin-bottom: 0.9375rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 0.625rem;
+    margin-bottom: 0.9375rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.1875rem;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    border-radius: 0.1875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #131212;
+  }
+  
+  .Enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.9375rem;
+  }
+  
+  .background-image {
+    background-image: url("../assets/img/nosotros.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vh;
+    position: relative;
+  }
+  
+  .background-image-sellos {
+    background-image: url("../assets/img/govegan.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vh;
+    position: relative;
+  }
+  
+  .background-image-recetas {
+    background-image: url("../assets/img/comidavegana.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vh;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(60, 58, 58, 0.71);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay h2 {
+    text-align: center;
+    color: #b4caac;
+    padding: 20px;
+  }
+  
+
+  
